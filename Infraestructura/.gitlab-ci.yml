@@ -1,0 +1,32 @@
+stages:
+  - build
+
+build_frontend:
+  stage: build
+  image: node:latest
+  before_script:
+    - cd ./frontend
+    - npm install
+  script:
+    - echo "Se esta haciendo un build en el proyecto FRONTEND"
+    - npm run build
+
+build_backend:
+  stage: build
+  image: ubuntu:latest
+  before_script:
+    - apt update -y 
+    - apt install git -y
+    - apt install maven -y
+    - apt update -y
+    - apt install openjdk-19-jdk openjdk-19-jre -y 
+    - git clone https://marnoguez:martu2803@gitlab.ctd.academy/ctd/proyecto-integrador-1022/0222-ft-c1/grupo-03.git
+    - cd grupo-05
+    - git checkout dev && cd backend/digitalbooking
+    - mvn clean
+    - mvn validate
+    - mvn install
+
+  script:
+    - echo "Se esta haciendo un build en el proyecto BACKEND"
+    - mvn package

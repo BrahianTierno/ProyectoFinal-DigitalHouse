@@ -1,0 +1,591 @@
+{
+  "id": "3cb1f148-5d59-4077-adfc-14d5603c4e4e",
+  "version": "2.0",
+  "name": "Proyecto integrador pruebas automatizadas",
+  "url": "http://127.0.0.1:5173",
+  "tests": [{
+    "id": "829df1fd-9742-4a76-bd86-cb6797e463d6",
+    "name": "Visualizar detalles del producto",
+    "commands": [{
+      "id": "9103e7bb-7e0b-4863-881f-0117f8b7c512",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3d0a523-8881-458a-a388-0cfc06d11e1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bbf9981-64b4-4fab-84d6-89913fad8b24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(1) .\\_btn_1qjza_181",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(1) .\\_btn_1qjza_181", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div/div[2]/section/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/section/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver mas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c98ccf7-2423-4bb4-a3be-3654e15f9506",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c13e4031-e3f1-40f3-903d-4f3b33d26cbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_divDesc_13rth_41 > p",
+      "targets": [
+        ["css=.\\_divDesc_13rth_41 > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,' Buenos Aires, Argentina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "005d1b17-876e-4e52-9ea0-80c41af75a80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiImageListItem-root:nth-child(1) > .MuiImageListItem-img",
+      "targets": [
+        ["css=.MuiImageListItem-root:nth-child(1) > .MuiImageListItem-img", "css:finder"],
+        ["xpath=//img[@alt='imagenes del hotel']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[2]/div[2]/ul/li/img", "xpath:idRelative"],
+        ["xpath=//li/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ee301ad-c08e-4df8-9f41-82502e3ee6cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiImageListItem-root:nth-child(2) > .MuiImageListItem-img",
+      "targets": [
+        ["css=.MuiImageListItem-root:nth-child(2) > .MuiImageListItem-img", "css:finder"],
+        ["xpath=(//img[@alt='imagenes del hotel'])[2]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[2]/div[2]/ul/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59991839-37d2-45cf-aa15-3466b61cc2e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiImageListItem-root:nth-child(3) > .MuiImageListItem-img",
+      "targets": [
+        ["css=.MuiImageListItem-root:nth-child(3) > .MuiImageListItem-img", "css:finder"],
+        ["xpath=(//img[@alt='imagenes del hotel'])[3]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[2]/div[2]/ul/li[3]/img", "xpath:idRelative"],
+        ["xpath=//li[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3bff3b-6ef3-4f8d-beec-6dc88e40dd9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(9)",
+      "targets": [
+        ["css=p:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[3]/p[4]", "xpath:idRelative"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'El establecimiento sirve un desayuno variado de 07:00 a 10:30.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f68633-e876-4e6c-8986-b9566b76b42e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_services_13rth_143 > h4:nth-child(1)",
+      "targets": [
+        ["css=.\\_services_13rth_143 > h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[3]/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Alojate en el corazón de \"La ciudad\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a00a68-0afc-41b2-9c50-064664a80b4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=h4:nth-child(11)",
+      "targets": [
+        ["css=h4:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[3]/h4[2]", "xpath:idRelative"],
+        ["xpath=//h4[2]", "xpath:position"],
+        ["xpath=//h4[contains(.,'¿Qué ofrece este lugar?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4332fdcd-3f56-412b-bc78-a920ff0ffbe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_dateDisponible_13rth_181 > h4",
+      "targets": [
+        ["css=.\\_dateDisponible_13rth_181 > h4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/h4", "xpath:idRelative"],
+        ["xpath=//section[4]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Fechas disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88c1672c-c0d4-476d-b64d-a71ce3ca4c03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_mapaContainer_13rth_221 > h4",
+      "targets": [
+        ["css=.\\_mapaContainer_13rth_221 > h4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[5]/h4", "xpath:idRelative"],
+        ["xpath=//section[5]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'¿Dónde vas a estar?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e34aae1-3119-4980-9deb-b7fdef52e8b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_listNormas_13rth_267 > h4",
+      "targets": [
+        ["css=.\\_listNormas_13rth_267 > h4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[6]/h4", "xpath:idRelative"],
+        ["xpath=//section[6]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Qué tenés que saber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49967e9-8972-4766-97d0-8450e1eba488",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(1) > .\\_titleNormas_13rth_255",
+      "targets": [
+        ["css=ul:nth-child(1) > .\\_titleNormas_13rth_255", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[6]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section[6]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Normas de la casa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ae6e89-aa4d-40cc-9c69-d6080303d8e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(2) > .\\_titleNormas_13rth_255",
+      "targets": [
+        ["css=ul:nth-child(2) > .\\_titleNormas_13rth_255", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[6]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Salud y seguridad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fde98d7-bd44-4d90-adcf-d8765c0d205b",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3) > .\\_titleNormas_13rth_255",
+      "targets": [
+        ["css=ul:nth-child(3) > .\\_titleNormas_13rth_255", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[6]/div/ul[3]/li", "xpath:idRelative"],
+        ["xpath=//ul[3]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Política de cancelación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e69c0ff3-eb98-4905-8e15-ea02154cb7fc",
+    "name": "Visualizar productos en el home ",
+    "commands": [{
+      "id": "d4b12606-761e-4c9b-bf7d-1b9f56569550",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "947ad218-0e0a-4877-83d6-1f9511d99a12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c903e2-2a89-494c-9a51-bbd08abd0f74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_13y9c_1:nth-child(1) > .\\_img_13y9c_43",
+      "targets": [
+        ["css=.\\_card_13y9c_1:nth-child(1) > .\\_img_13y9c_43", "css:finder"],
+        ["xpath=//img[@alt='categorias']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/section/section/img", "xpath:idRelative"],
+        ["xpath=//section/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "719b35c3-54fb-48d1-a4a2-4f64e14efd40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_13y9c_1:nth-child(2) > .\\_img_13y9c_43",
+      "targets": [
+        ["css=.\\_card_13y9c_1:nth-child(2) > .\\_img_13y9c_43", "css:finder"],
+        ["xpath=(//img[@alt='categorias'])[2]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/section/section[2]/img", "xpath:idRelative"],
+        ["xpath=//section[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "905135fc-9e4e-4dd8-898b-99fdd8b550dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_13y9c_1:nth-child(4) > .\\_img_13y9c_43",
+      "targets": [
+        ["css=.\\_card_13y9c_1:nth-child(4) > .\\_img_13y9c_43", "css:finder"],
+        ["xpath=(//img[@alt='categorias'])[4]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/section/section[4]/img", "xpath:idRelative"],
+        ["xpath=//section[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fba44ebb-7925-41ba-ae7d-6d4e339596ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_13y9c_1:nth-child(3) > .\\_img_13y9c_43",
+      "targets": [
+        ["css=.\\_card_13y9c_1:nth-child(3) > .\\_img_13y9c_43", "css:finder"],
+        ["xpath=(//img[@alt='categorias'])[3]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/section/section[3]/img", "xpath:idRelative"],
+        ["xpath=//section[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d541c2d-21c2-4ae8-96c4-d35e8a19ea9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_title_1a13w_27",
+      "targets": [
+        ["css=.\\_title_1a13w_27", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Recomendaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "275b1791-cffa-4c0e-b9b4-13460a606836",
+    "name": "Visualizar productos al azar en el home",
+    "commands": [{
+      "id": "46bc3822-8ce4-42ea-9663-db0466525454",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1732deb6-8a30-4ff8-b395-d37091d7ee7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27918e28-71c4-4810-91ae-dcd735da6813",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(1) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(1) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'9')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bba16734-6980-4c29-996c-f81137825508",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(2) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(2) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[2]/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/section/section/section[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a71a0116-a9e8-40f6-a489-3f47619dc1f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(3) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(3) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[3]/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/section/section/section[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7b8b30-6b55-42c4-b271-12612fc22ca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(4) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(4) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[4]/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/section/section/section[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e6c2c5-8026-49e9-aada-eda90f764c3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(5) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(5) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[5]/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/section/section/section[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12228567-5522-4a04-9823-d4deb0357b2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(6) .\\_calification_1qjza_111",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(6) .\\_calification_1qjza_111", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[6]/div[2]/section/section/section[2]/p", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/section/section/section[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d903e6ce-563e-4cc1-a886-83ae1377e9ce",
+    "name": "Visualizar ciudades en el select del buscador",
+    "commands": [{
+      "id": "3a59ca98-e56d-470e-97d6-3ea11dd1a2e6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bee81bee-ba56-4ee9-a38c-280d97c72ece",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a527e5f-eb63-466a-865e-246a27b4f4c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=cities",
+      "targets": [
+        ["id=cities", "id"],
+        ["css=#cities", "css:finder"],
+        ["xpath=//select[@id='cities']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "837482d1-bbba-432b-9464-4fc34417db50",
+      "comment": "",
+      "command": "select",
+      "target": "id=cities",
+      "targets": [],
+      "value": "label=Buenos Aires"
+    }, {
+      "id": "da0f9e6d-7636-4f65-9105-0350123e8e66",
+      "comment": "",
+      "command": "click",
+      "target": "id=cities",
+      "targets": [
+        ["id=cities", "id"],
+        ["css=#cities", "css:finder"],
+        ["xpath=//select[@id='cities']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0318a9ce-3dbd-4c7f-81e0-c9a1bbf64b73",
+      "comment": "",
+      "command": "select",
+      "target": "id=cities",
+      "targets": [],
+      "value": "label=San Carlos de Bariloche"
+    }, {
+      "id": "717d5f6e-849b-4429-93b5-8c8e71865cbf",
+      "comment": "",
+      "command": "click",
+      "target": "id=cities",
+      "targets": [
+        ["id=cities", "id"],
+        ["css=#cities", "css:finder"],
+        ["xpath=//select[@id='cities']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7caedd5f-591e-4020-9e71-48f182ba5399",
+      "comment": "",
+      "command": "select",
+      "target": "id=cities",
+      "targets": [],
+      "value": "label=Cordoba"
+    }, {
+      "id": "efec162d-d60f-4e27-a9b0-813808ede7fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=cities",
+      "targets": [
+        ["id=cities", "id"],
+        ["css=#cities", "css:finder"],
+        ["xpath=//select[@id='cities']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afebfc2f-23f3-4802-a777-69c64b581405",
+      "comment": "",
+      "command": "select",
+      "target": "id=cities",
+      "targets": [],
+      "value": "label=Salta"
+    }, {
+      "id": "14af9d0a-074a-416f-9efd-3f24558abec3",
+      "comment": "",
+      "command": "click",
+      "target": "id=cities",
+      "targets": [
+        ["id=cities", "id"],
+        ["css=#cities", "css:finder"],
+        ["xpath=//select[@id='cities']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13e188b9-7c5d-423e-9b0b-1039a5165a8c",
+      "comment": "",
+      "command": "select",
+      "target": "id=cities",
+      "targets": [],
+      "value": "label=Mar del Plata"
+    }]
+  }, {
+    "id": "cae3f9f1-3979-4845-8aed-385ef569de16",
+    "name": "Visualizar bloque con calendario y botón reservas",
+    "commands": [{
+      "id": "51fdefae-426c-41ab-9ae9-cd11a45a673a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47767dfb-ce05-4ebd-b784-d053d5bcb960",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b380a58f-5917-4edb-9500-b80c6f62af3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_card_1qjza_1:nth-child(3) .\\_btn_1qjza_181",
+      "targets": [
+        ["css=.\\_card_1qjza_1:nth-child(3) .\\_btn_1qjza_181", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/section/div[3]/div[2]/section/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/section/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0c7db7-2cb5-4966-ae04-c4bc5a38b228",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c77388b-7953-4ae0-8223-0974f64f4fad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_calendar_13c44_1:nth-child(1) .MuiDateRangeCalendar-monthContainer:nth-child(2) .MuiDayCalendar-weekContainer:nth-child(2) > .MuiDateRangePickerDay-root:nth-child(5) .MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.\\_calendar_13c44_1:nth-child(1) .MuiDateRangeCalendar-monthContainer:nth-child(2) .MuiDayCalendar-weekContainer:nth-child(2) > .MuiDateRangePickerDay-root:nth-child(5) .MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[44]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17042ea6-c432-44cd-813d-7928802f31ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_calendar_13c44_1:nth-child(1) .MuiDateRangeCalendar-monthContainer:nth-child(2) .MuiDayCalendar-weekContainer:nth-child(2) > .MuiDateRangePickerDay-root:nth-child(5) .MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.\\_calendar_13c44_1:nth-child(1) .MuiDateRangeCalendar-monthContainer:nth-child(2) .MuiDayCalendar-weekContainer:nth-child(2) > .MuiDateRangePickerDay-root:nth-child(5) .MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[44]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7dc84cc-16a0-4711-86c2-4c84a88db8b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Mui-selected",
+      "targets": [
+        ["css=.Mui-selected", "css:finder"],
+        ["xpath=(//button[@type='button'])[44]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9e1b754-b8e7-481b-baf8-20b3553c5ac4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1dheud2-MuiDateRangePickerDay-rangeIntervalPreview > .MuiButtonBase-root",
+      "targets": [
+        ["css=.css-1dheud2-MuiDateRangePickerDay-rangeIntervalPreview > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[52]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[3]/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div[2]/div/div[3]/div[6]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d1c361-ced9-4904-910e-4404b68330a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_btnCalendar_13rth_369",
+      "targets": [
+        ["css=.\\_btnCalendar_13rth_369", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//section[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ce71ddd9-747d-495f-8262-1a7abeb44549",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["829df1fd-9742-4a76-bd86-cb6797e463d6"]
+  }],
+  "urls": ["http://127.0.0.1:5173/"],
+  "plugins": []
+}

@@ -1,0 +1,164 @@
+.topMenu{
+    background-color: #1DBEB4;
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    height: 20vh;
+    color: #fafafa;
+}
+
+.h5{
+    position: relative;
+    text-align: end;
+    top: -37rem;
+    margin: 1% 2%;
+    color: white;
+}
+
+.avatarMobile{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 41rem;
+}
+
+.hrNoLogged{
+    position: relative;
+    bottom: 30rem;
+    color: #545776
+}
+
+.hrLogged{
+    position: relative;
+    bottom: 6rem;
+    color: #545776
+}
+
+.pCSesion{
+    position: relative;
+    bottom: 5.5rem;
+    text-align: end;
+    color: #545776;
+}
+
+.aCSesion{
+    text-decoration: none;
+    color: #1DBEB4;
+    font-weight: 500;
+}
+
+.aCSesion:hover{
+    text-decoration: none;
+    color: #008a81;
+}
+
+.close{
+    top: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    height: 80px;
+}
+
+.btnMenu1 , .btnMenu2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 25em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 2%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4c4f69;
+    
+}
+
+.btnMenu1:hover, .btnMenu2:hover{
+    color: #1DBEB4;
+    text-decoration: none;
+}
+
+.NavbarItems {
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.nav-menu.active {
+    background: #fafafa;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 10;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 3.5rem;
+    right: 0rem;
+}
+
+.nav-links {
+    display: flexbox;
+    color: #4c4f69;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.nav-links:hover{
+    color: #1DBEB4;
+}
+
+.navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+}
+
+.menu-icon {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
